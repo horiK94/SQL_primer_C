@@ -1,3 +1,4 @@
+```sql
 mysql> select ID, 名称, 職業コード, HP, MP, 状態コード from パーティー;  -- 1
 mysql> select 名称 as なまえ, HP as 現在のHP, MP as 現在のMP from パーティー; -- 2
 mysql> select * from イベント;      -- 3
@@ -11,3 +12,4 @@ Query OK, 1 row affected (0.00 sec)
 
 mysql> insert into パーティー  values ('A03', 'イズミ', '20', 84, 190, '00');
 Query OK, 1 row affected (0.00 sec)
+```

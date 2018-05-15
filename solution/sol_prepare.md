@@ -1,3 +1,4 @@
+```sql
 create table パーティー(
     ID char(3) primary key,
     名称 varchar(20) not null,
@@ -26,3 +27,4 @@ insert into パーティー
 values
 ('C01', 'ミナト', '01', 89, 35, '00'),
 ('C02', 'アサカ', '11', 74, 66, '00');
+```
